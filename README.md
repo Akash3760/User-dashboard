@@ -26,16 +26,18 @@ Billing Dashboard Project/
 ### Backend
 cd BACKEND
 .\venv\Scripts\activate      # Windows
-# OR
+### OR
 source venv/bin/activate     # Mac/Linux
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 
+
 ### Frontend
 cd FRONTEND/dashboard_ui
 npm install
 npm run dev
+
 
 ### Environment Variables (.env)
 SECRET_KEY=<your_django_secret_key>
@@ -52,6 +54,7 @@ DB_PORT=3306
 
 This project is licensed under the MIT License. See LICENSE
  for details.
+
 
 ## Author
 
