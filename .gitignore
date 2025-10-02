@@ -1,0 +1,19 @@
+# Python / Django
+BACKEND/venv/
+BACKEND/__pycache__/
+BACKEND/*.pyc
+BACKEND/*.pyo
+BACKEND/*.sqlite3
+BACKEND/.env          # Hide environment variables
+BACKEND/*.log
+
+# Node / React
+dashboardui/node_modules/
+dashboardui/dist/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
